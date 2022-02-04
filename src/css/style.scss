@@ -1,0 +1,42 @@
+@import "../fonts/Montserrat/stylesheet.css";
+
+@import "enhancer";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+button {
+  width: 160px;
+  height: 40px;
+  border: 2px solid #E51937;
+  background-color: #fff;
+  @include text($Montserrat ,normal,bold,13px,16px,$red);
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+button.end {
+  cursor: pointer;
+  background: #E51937;
+  color: #fff;
+  border: 2px solid #fff;
+
+}
+
+
+@import "header";
+@import "main";
+@import "mainBottom";

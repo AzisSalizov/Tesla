@@ -1,0 +1,15 @@
+$Montserrat: Montserrat sans-serif ;
+$bor: 2px solid #E51937;
+$borw:2px solid #fff;
+$red:#E51937;
+$black: #000000;
+$white: #fff;
+
+@mixin text ($ff,$fs,$fw,$fz,$lh,$cor){
+  font-family:$ff;
+  font-style: $fs;
+  font-weight: $fw;
+  font-size: $fz;
+  line-height: $lh;
+  color: $cor;
+}

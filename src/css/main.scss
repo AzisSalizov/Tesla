@@ -1,0 +1,122 @@
+.main {
+  margin-top: 37px;
+  height: 900px;
+
+
+  &__content {
+    display: flex;
+    background: url("../images/mainImg/2013-tesla-model-s-.svg") no-repeat;
+    justify-content: space-between;
+
+  }
+
+  &__left h2 {
+    font-family: Montserrat sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 85px;
+    color: #E51937;
+    padding: 8px 0 0 80px;
+
+  }
+
+  &__right {
+    width: 400px;
+    background: #E51937;
+    padding: 51px 26px 63px 52px;
+    &-title{
+      font-family: Montserrat sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 30px;
+      line-height: 37px;
+      color: #FFFFFF;
+      margin-bottom: 11px;
+    }
+    &-text{
+      font-family: Montserrat sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 18px;
+      color: #FFFFFF;
+      margin-bottom: 54px;
+    }
+
+  }
+
+  &__content-box {
+
+    &-title {
+      font-family: Montserrat sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 35px;
+      line-height: 43px;
+      color: #FFFFFF;
+      margin-bottom: 1px;
+      &.center{
+        font-family: Montserrat sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 18px;
+        color: #FFFFFF;
+        margin-bottom: 5px;
+      }
+
+      span {
+        font-family: Montserrat sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        color: #FFFFFF;
+      }
+    }
+
+    &-text {
+      font-family: Montserrat sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 15px;
+      color: #FFFFFF;
+
+    }
+  }
+  &__box{
+    display: flex;
+    margin-bottom: 35px;
+    &.center{
+      margin-bottom: 25px;
+    }
+    &-img{
+      align-self: center;
+      margin-right: 19px;
+    }
+  }
+  &__end{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 171px;
+    &-title{
+      font-family: Montserrat sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 13px;
+      line-height: 16px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      margin-right: 22px;
+      margin-left: 3px;
+
+    }
+    &-img{
+      align-self: center;
+    }
+  }
+}

@@ -1,0 +1,134 @@
+.header {
+
+  &__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 60px 58px 43px;
+  }
+
+  &__menu-center {
+    display: flex;
+  }
+
+  &__menu-right {
+    display: flex;
+    column-gap: 30px;
+  }
+
+  &__list {
+    display: flex;
+  }
+
+  &__link {
+    @include text($Montserrat, normal, 600, 15px, 18px, $black);
+
+    &.txt1 {
+      margin-right: 63px;
+
+      &.active {
+        color: #E51937;
+        border-bottom: 2px solid red;
+      }
+    }
+
+    &.txt2 {
+      margin-right: 24.86px;
+    }
+
+    &.txt3 {
+      margin-right: 44px;
+    }
+
+    &.txt4 {
+      margin-right: 46px;
+    }
+  }
+
+  &__ModelS {
+    text-align: center;
+
+
+  }
+
+  &__ModelS-content {
+    height: 594px;
+    background: url("../images/headerIMG/Tesla logo + car.svg") center/contain no-repeat;
+
+
+  }
+
+  &__title {
+    @include text($Montserrat, normal, 600, 90px, 110px, $black);
+    margin-bottom: 9px;
+  }
+
+  &__text {
+    @include text($Montserrat, normal, 500, 15px, 18px, $black);
+
+  }
+
+  &__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 26px;
+  }
+
+  &__ModelS-title {
+    @include text($Montserrat, normal, 600, 35px, 43px, $black);
+
+    &.drive {
+      @include text($Montserrat, normal, bold, 13px, 16px, $black);
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    span {
+      @include text($Montserrat, normal, 600, 20px, 24px, $black);
+
+    }
+  }
+
+  &__ModelS-text {
+    font-family: Montserrat sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+  }
+
+  &__speedImg {
+    margin-right: 14px;
+  }
+
+  &__roadImg {
+    margin-right: 12.5px;
+  }
+
+  &__info {
+    display: flex;
+    align-items: center;
+
+    &.sec {
+      margin-right: 81px;
+    }
+
+    &.klm {
+      margin-right: 105px;
+    }
+  }
+
+  &__info-content {
+    &.drive {
+      margin: 0 40px 0 7px;
+    }
+  }
+
+  &__arrow {
+    margin-top: 37px;
+  }
+
+
+}
